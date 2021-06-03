@@ -1,0 +1,71 @@
+body {
+  background-image: url(../Images/loginbg.jpg);
+  color: snow;
+  line-height: 150%;
+  text-indent: 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+form {
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  font-size: 18px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  background-size: cover;
+  width: fit-content;
+  width: 300px;
+  height: 500px;
+  margin-top: 80px;
+  border: double snow;
+}
+
+div {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.form {
+  margin: 18%;
+}
+
+#C {
+  line-height: 130%;
+  padding: 5px 0;
+  margin: 0;
+  background-color: #64a59c;
+  color: snow;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  width: 98%;
+  text-align: left;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  background-image: url(../Images/logo.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-position-y: center;
+}
+span {
+  color: gold;
+}
+.button {
+  color: black;
+  text-decoration: none;
+}
+button {
+  border: 1.5px solid black;
+  border-radius: 15px;
+  width: 40%;
+  height: 30px;
+}
+.button:hover {
+  color: snow;
+}
+
+button:hover {
+  background-color: rgb(11, 184, 228);
+}

@@ -1,0 +1,472 @@
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+
+  text-align: center;
+  margin-top: 40px;
+  background-color: white;
+}
+
+/* style for nav bar */
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #64a59c;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.logo span {
+  color: gold;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.h {
+  color: red;
+  font-size: 60px;
+  margin-top: 10vh;
+}
+.g {
+  color: snow;
+}
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  background: white;
+  border: 5px solid rgba(37, 104, 150, 0.904);
+  border-collapse: collapse;
+}
+td {
+  height: 50px;
+  border: 5px solid rgba(37, 104, 150, 0.904);
+  border-collapse: collapse;
+  font-weight: bold;
+  color: rgb(37, 15, 160);
+}
+
+td button {
+  color: rgb(37, 15, 160);
+  font-size: 16px;
+  font-weight: 300;
+  height: 50px;
+  width: 75px;
+}
+
+td button:hover {
+  color: snow;
+}
+
+caption {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 5px;
+}
+.button {
+  color: black;
+  text-decoration: none;
+}
+button {
+  border-radius: 9px;
+  border: solid snow;
+  width: 80px;
+}
+button:hover {
+  background-color: red;
+}
+.button:hover {
+  color: snow;
+}
+
+.body-paragraph {
+  background: rgba(218, 231, 236, 0.692);
+  width: 60%;
+  display: flex;
+  background-size:auto;
+  border: 8px solid rgba(88, 173, 209, 0.692);
+  padding: 10px;
+  border-radius: 20px;
+}
+.par1 {
+  border: groove rgb(250, 234, 4);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/jeremy-zero-JB4YxOSyaHc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.egypt {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  background-size: cover;
+  margin: 0%;
+  background-image: url(../Images/Home/stock-photo-realistic-flag-egypt-flag-blowing-in-the-wind-background-silk-texture-d-illustration-1709972608.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+video {
+  position: relative;
+}
+.par2 {
+  border: groove rgb(233, 32, 126);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/manuel-cosentino-n--CMLApjfI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.japan {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  background-size: cover;
+  margin: 0%;
+  background-image: url(../Images/Home/images.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.par3 {
+  border: groove rgb(4, 250, 217);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/arnaud-mariat-F2Z-8w9qe1Y-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.france {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  background-size: cover;
+  margin: 0%;
+  background-image: url(../Images/Home/download.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.par4 {
+  border: groove rgb(71, 185, 26);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/den-harrson-wXY6LVVe1rc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.italy {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  background-size: cover;
+  margin: 0%;
+  background-image: url(../Images/Home/images\ 1.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.par5 {
+  border: groove rgb(228, 29, 29);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/raimond-klavins-7PQffYkzfCM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.turkey {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  background-size: cover;
+  margin: 0%;
+  background-image: url(../Images/Home/Turckey.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.par6 {
+  border: groove rgb(252, 138, 45);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/alejandro-cartagena-B64B6-kAWlw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.thailand {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  margin: 0%;
+  background-image: url(../Images/Home/thailand.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.par7 {
+  border: groove gold;
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/meduana-PdnseHuDFZU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+}
+.germany {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  margin: 0%;
+  background-size: cover;
+  background-image: url(../Images/Home/Germany.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.par8 {
+  border: groove greenyellow;
+  border-width: 7px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+  background-image: url(../Images/Home/david-rodrigo-kZ1zThg6G40-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-size: cover;
+  margin-right: 6px;
+  background-position: right;
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+.uae {
+  color: rgb(255, 0, 0);
+  padding: 10px 0px 10px 150px;
+  margin: 0%;
+  background-size: cover;
+  background-image: url(../Images/Home/UAE.jpg);
+  background-size: 90px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 3%;
+  background-position-y: center;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+/* style for footer */
+
+footer {
+  background: #64a59c;
+  color: rgb(226, 226, 226);
+  height: 400px;
+  position: relative;
+}
+
+footer .footer-content {
+  height: 350px;
+  display: flex;
+}
+
+footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+footer .footer-content h1,
+footer .footer-content h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+footer .footer-content p {
+  font-size: 18px;
+  font-weight: 800px;
+}
+footer .footer-content .about h1 span {
+  color: gold;
+}
+
+footer .footer-content .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+footer .footer-content .about .socials a {
+  border: 1px solid white;
+  color: whitesmoke;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+
+footer .footer-content .links ul a {
+  color: whitesmoke;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  transition: all 0.3s;
+}
+
+footer .footer-content .links ul a:hover {
+  color: white;
+  margin-left: 15px;
+  transition: all 0.3s;
+}
+
+footer .footer-bottom {
+  background: #367f97;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
