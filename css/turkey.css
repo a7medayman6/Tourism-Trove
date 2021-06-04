@@ -52,24 +52,24 @@
     align-items: center;
     justify-content: center;
 }
-.info{
-    color: black;
-    margin-top: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.info img#flag{
-    height: 100px;
-    width: 200px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-}
+    .info{
+        color: black;
+        margin-top: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .info img#flag{
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
     
     nav {
     position: fixed;
@@ -85,8 +85,6 @@
     }
     
     .logo {
-    display: flex;
-    align-items: center;
     color: rgb(226, 226, 226);
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -398,14 +396,6 @@ li a:hover {
         background-color:black ;
     }
 
-iframe{
-    float: right;
-    margin-top: 20px;
-    border-radius: 5%; 
-    width: 50%;
-    height: 600px;
-    background-color:black ;
-}
     
     /* style for footer */
     
