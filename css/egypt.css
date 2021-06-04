@@ -29,6 +29,24 @@
     background-color: #64a59c;
     font-family:'Times New Roman', Times, serif;
     }
+.info{
+        color: black;
+        margin-top: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .info img#flag{
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
     
     .logo {
     color: rgb(226, 226, 226);
