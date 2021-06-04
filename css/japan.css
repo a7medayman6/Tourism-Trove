@@ -366,7 +366,11 @@ video {
     width: 95%;
     border-radius: 10px;
 }
-
+iframe{
+    margin: 20px;
+    width: 95%;
+    border-radius: 10px;
+}
 /* style for footer */
 
 footer {
