@@ -85,6 +85,8 @@
     }
     
     .logo {
+    display: flex;
+    align-items: center;
     color: rgb(226, 226, 226);
     text-transform: uppercase;
     letter-spacing: 5px;
